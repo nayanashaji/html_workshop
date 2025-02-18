@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sub_division{
+            width:23%;
+            border:1px black solid;/*needs ;*/
+            background-color: bisque;
+            padding: 30px;
+            margin: 50px;
+            /*display: flex;for heading and para in same line*/
+        }
+        .parent{/* for no parent use float: left for each card*/
+            display: flex;/* cards in same line: bring div horizontally*/
+        }
+        .sub_division h1{
+            text-align: center;
+            text-decoration: underline;
+            font-weight: 100px;
+        }
+        .sub_division p{
+            letter-spacing: 2px;
+        }
+        .sub_division img{
+            width: 100%;
+        }
+        .first_letter{
+            font-size: 50px;
+            color: crimson;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="sub_division">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/o/3/z/medium-sunset-horizon-sky-sea-aesthetic-view-hd-matte-finish-original-imagh7fqhfz7ansn.jpeg?q=20&crop=false" alt=""><h1>
+                Card 1
+            </h1>
+            <p>
+                <span class="first_letter">L</span>orem lipsum dolor sit, amet consectetur adipisicing elit. Voluptates quo officia pariatur quas dolorem. Ducimus, distinctio maxime doloremque amet veritatis atque, tempore natus, dolorem cumque minima cupiditate pariatur placeat ipsa.
+            </p>    <!--alt+z for concise, lorem for para-->
+        </div><!--ctrl d for selcting pairs-->
+        <div class="sub_division">
+            <img style="width: 100%;" src="https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/o/3/z/medium-sunset-horizon-sky-sea-aesthetic-view-hd-matte-finish-original-imagh7fqhfz7ansn.jpeg?q=20&crop=false" alt=""><h1>
+                Card 2
+            </h1>
+            <p>
+                <span class="first_letter">L</span>orem lipsum dolor sit, amet consectetur adipisicing elit. Voluptates quo officia pariatur quas dolorem. Ducimus, distinctio maxime doloremque amet veritatis atque, tempore natus, dolorem cumque minima cupiditate pariatur placeat ipsa.
+            </p>    
+        </div>
+    </div>
+</body>
+</html>

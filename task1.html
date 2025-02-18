@@ -1,0 +1,125 @@
+<!--calculator-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--calculator--</title>
+    <style>
+        .calc{
+            background-color: rgb(173, 171, 171); 
+            border: 5px white solid; 
+            width:fit-content; 
+            justify-content: center;
+            align-items: center;
+            height:fit-content;
+            margin: 100px auto;
+            padding: 10px;
+        }
+        .content{
+            padding: 5px;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .square{
+            margin: 10px;
+            border: 1px black solid;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+        }
+        .square.num button{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+        }
+        .square.symbol button{
+            background-color: black;
+            color: azure;
+            width: 50px;
+            height: 50px;
+        }
+        .one{
+            display: flex;
+        }
+        .two{
+            display: flex;
+        }
+        .three{
+            display: flex;
+        }
+        .four{
+            display: flex;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="calc">
+
+        <div style="padding: 20px ;">
+            <input style=" align-items: center;justify-content: center; display: flex;margin: auto; width:250px;height: 50px; border: 2px solid black;border-radius: 5px;" placeholder="Enter">
+        </div>
+
+
+            <div class="content">
+                <div class="one">
+                    <div class="square num first">
+                        <button><h2>7</h2></button>
+                    </div>
+                    <div class="square num first">
+                        <button><h2>8</h2></button>
+                    </div>
+                    <div class="square num first">
+                        <button><h2>9</h2></button>
+                    </div>
+                    <div class="square symbol first">
+                        <button><h2>+</h2></button>
+                    </div>
+                </div>
+                <div class="two">
+                    <div class="square num">
+                        <button><h2>4</h2></button>
+                    </div>
+                    <div class="square num">
+                        <button><h2>5</h2></button>
+                    </div>
+                    <div class="square num">
+                        <button><h2>6</h2></button>
+                    </div>
+                    <div class="square symbol">
+                        <button><h2>-</h2></button>
+                    </div>
+                </div>
+                <div class="three">
+                    <div class="square num">
+                        <button><h2>1</h2></button>
+                    </div>
+                    <div class="square num">
+                        <button><h2>2</h2></button>
+                    </div>
+                    <div class="square num">
+                        <button><h2>3</h2></button>
+                    </div>
+                    <div class="square symbol">
+                        <button><h2>x</h2></button>
+                    </div>
+                </div>
+                <div class="four">
+                    <div class="square">
+                        <button style="background-color: red; color: white; width: 50px; height: 50px;"><h2>C</h2></button>
+                    </div>
+                    <div class="square num">
+                        <button><h2>0</h2></button>
+                    </div>
+                    <div class="square symbol">
+                        <button><h2>=</h2></button>
+                    </div>
+                    <div class="square symbol">
+                        <button><h2>/</h2></button>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
