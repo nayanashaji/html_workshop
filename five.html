@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .box{
+            width: 500px;
+            height: 400px;
+            background-color: darkgoldenrod;
+            animation-name: colorChange;
+            animation-duration: 4s;
+            animation-iteration-count: 5;
+            position: relative;
+            animation-delay: 3s;
+        }
+        @keyframes colorChange{
+            /*from{
+                background-color: goldenrod;
+            }
+            to{
+                background-color: crimson;
+            }*/
+            0%{
+                background-color: darkgoldenrod;
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFAq4Y5LrINZ4TzNxDLEYlqrDQf_0s4io41g&s");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            25%{
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqCwSFBtyrp3kT86JEuol-J8YbE1IHjBqlRA&s");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                left: 500px;
+                top: 0px;
+            }
+            50%{
+                background-color: black;
+                left: 500px;
+                top: 300px;
+            }
+            75%{
+                background-color: aquamarine;
+                left: 0px;
+                top: 300px;
+            }
+            100%{
+                background-color: darkgreen;
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
